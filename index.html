@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style type="text/css">.body { width: auto; }</style>
+  </head>
+  <body>
+    <h1>Guess</h1>
+      <h6>Enter number 1 - 100, you have </h6><p id="guessesLeft">10</p><h6> guesses!</h6>
+      <br />
+    <input id="guess" type="number" placeholder="1 - 100"></input>
+    <button id="guessButton">Guess</button>
+      <br />
+      <progress id="progress" max="10" value="10"></progress>
+    <p id="guesses"></p>
+    <script src="level.js"></script>  
+    <script src="script.js"></script>
+  </body>
+</html>

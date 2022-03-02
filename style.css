@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+h6 {
+    display: inline;
+  animation: spin 1ms infinite;
+}
+h1 {
+  animation: grow 1s infinite;
+}
+#guessesLeft {
+    display: inline-block;
+    animation: spin 5s infinite;
+}
+#guessButton {
+  animation: spin 1ms infinite;
+}
+#guess {
+  animation: spin 1ms infinite;
+}
+#progress {
+    width: 235px;
+    animation: spin 1ms infinite;
+}
+#container {
+  margin: auto;
+}
